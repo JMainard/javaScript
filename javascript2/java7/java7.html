@@ -1,0 +1,39 @@
+<html>
+		<head> 
+				<title> Ajout de contacts </title>
+		</head>	
+		<body>
+			<h1> Formulaire </h1>
+			<form>
+				<div>
+					<label> Nom </label>
+					<input type="text" placeholder="Nom" id="nom" />
+				</div>
+				<div>
+					<label> Prenom </label>
+					<input type="text" id="prenom" />
+				</div>
+				<div>
+					<label> num tel </label>
+					<input type="phonenumber" id="telephone"/>
+				</div>
+				<div>
+					<label> Adresse mail </label>
+					<input type="email" id="adresseMail"/>
+				</div>	
+				<div>
+					<input type="button" onclick="valider()" value="Accepter" />
+					<input type="reset" value="effacer" />
+				</div>
+			
+			<table id="tableauContact" border="1">
+			<tr>
+				<td> Nom </td>
+				<td> Prenom </td>
+				<td> Numero de telephone </td>
+				<td> Adresse mail </td>
+			</tr>
+			</table>
+		<script src="java7.js"> </script>
+		</body>
+</html>
